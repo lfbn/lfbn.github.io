@@ -1,0 +1,372 @@
+{
+  "basics": {
+    "name": "Luís Nóbrega",
+    "label": "Full-stack Web Developer",
+    "image": "profile_photo.jpg",
+    "email": "luis.barros.nobrega@gmail.com",
+    "phone": "+351936565130",
+    "summary": "Hi! I'm Luís Nóbrega from the beautiful city of Porto in Portugal. I took a degree in Management of Information Systems and Multimedia, and later a Master in Management of Information Systems. Finally, I did a 'refresh' of knowledge achieving the licentiate degree in Multimedia Systems Engineering. I've been working as a full-stack web developer for ten years, having also recent experiences, as a front-end developer. I've worked for several companies, in the area of healthcare, content creation, e-commerce, media conversion, betting, and now marketing. Thanks for your interest in me.",
+    "location": {
+      "countryCode": "PT",
+      "region": "Porto"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "luisnobrega",
+        "url": "https://www.linkedin.com/in/luisnobrega/"
+      },
+      {
+        "network": "GitHub",
+        "username": "lfbn",
+        "url": "https://github.com/lfbn"
+      },
+      {
+        "network": "Medium",
+        "username": "luis.barros.nobrega",
+        "url": "https://medium.com/@luis.barros.nobrega"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Bytalk",
+      "position": "Back-end Developer",
+      "website": "https://bytalk.com/",
+      "startDate": "2018-09-01",
+      "summary": "Bytalk is a project from BySide, it's parent company, being more focused on small businesses.\nWhen I arrived at the project, it already has two years of existence, and in the meanwhile, I've added the following:\n- Unit testing with PHPUnit: configuration, development, integration, and execution in our GitLab pipelines.\n- Testing of application endpoints with Behat: configurations, authentication, and coding structure.\n- Identification of what's needed to start a migrating from Silex to Symfony 4. Started refactoring the code to stop using the container and start using dependency injection.\n- Code reviewing the integration of the BySide monitoring system in Bytalk code base.\n- Mentoring newcomers to the team, accompanying the development of new big functionality, a built-in CRM.\n- Development of a new voucher functionality, allowing the use of vouchers when the users create new accounts. These vouchers may or not be related to a specific subscription package.\n- Refactor of the client's registration, with Unit Tests, full code coverage, and integration tests with Behat.\n- Several bug fixes.",
+      "highlights": [
+        "Added unit and integration tests to the project",
+        "Created the project pipeline on GitLab with unit tests"
+      ]
+    },
+    {
+      "name": "BySide",
+      "position": "Full-stack Web Developer",
+      "website": "https://byside.com/",
+      "startDate": "2017-05-01",
+      "endDate": "2018-09-01",
+      "summary": "Here I've worked on Webcare, the main product of BySide, in its version 3, a web application, and version 4, a SPA with React.\nIn version 3 I was in the area of e-commerce, where I developed an importer of products. This importer allowed to use replacement or updating, when already existing data, were added.\nI added unit tests, using PHPUnit, to the code I developed.\nI worked on creating the base for Webcare integration tests, using PHPUnit and database data fixtures.\nIn Webcare version 4, using React, I developed full-stack, the front-end and also the back-end.",
+      "highlights": [
+        "Created unit and integration tests",
+        "First time developing in React"
+      ]
+    },
+    {
+      "name": "Blip",
+      "position": "Front-end Developer",
+      "website": "https://blip.pt/",
+      "startDate": "2016-09-01",
+      "endDate": "2017-05-01",
+      "summary": "Front-end development of the Paddy Power re-branded website using AngularJS, Webpack, and SASS. Developed unit tests with Jasmine and mocha, and functional tests with Protractor.",
+      "highlights": [
+        "Learn a lot about frontend architecture, for example, having one controller per page.",
+        "Creating a centralized style guide for all the application.",
+        "Creation of a toggle component."
+      ]
+    },
+    {
+      "name": "MOG",
+      "position": "Front-end Developer",
+      "website": "https://www.mog-technologies.com/",
+      "startDate": "2016-04-01",
+      "endDate": "2016-08-01",
+      "summary": "Front-end development of the new version of the product, using Javascript, Backbone, SASS, and unit tests with Jasmine and Karma.",
+      "highlights": [
+        "Done unit tests with Jasmin, and added code coverage reports with Istanbul."
+      ]
+    },
+    {
+      "name": "Porto Tech Center",
+      "position": "Full-stack Web Developer",
+      "website": "https://tech.jumia.com/",
+      "startDate": "2012-07-01",
+      "endDate": "2016-02-01",
+      "summary": "Jovago.com - hotel booking\n\n- On the DevOps team, I've worked towards continuous integration. My job was to allow our\npublic API, to have pipelines of mainly, unit and integration tests. I've chosen as unit tests tools PHPUnit and phpspec, defined configurations, and added integration tests with Behat, that used data fixtures that allowed isolation of data between tests.\n- In the public API team, I've developed new functionalities with unit tests, and defined/designed new endpoints.\n- I also developed new features, especially related to SEO (alternates, canonical, page\ntitles and descriptions, micro-data, etc.), allowing the management of these definitions, and the use of rules depending on the page, region, or city that is being viewed. I also have done several bug fixing.\n\nOMS - order management system\n\n- Developed several new features, especially a rules engine that allows the grouping of pick-lists according to specific characteristics, defined by the users. I also have done several bug fixing.",
+      "highlights": [
+        "Development of picklist queues functionality in OMS.",
+        "Implementation of a pipeline of automated unit and integration tests in DevOps team."
+      ]
+    },
+    {
+      "name": "AEIOU",
+      "position": "Full-stack Web Developer",
+      "website": "https://www.aeiou.pt/",
+      "startDate": "2011-01-01",
+      "endDate": "2012-07-01",
+      "summary": "Worked in two of the several websites of the company, that were related to tourism and soccer.\nThey were in PHP, using Drupal as a CMS.\nI've developed full-stack, from defining the views to obtain data from the database to build the HTML, CSS, and JavaScript.",
+      "highlights": [
+        "Development of Escape and Relvado new versions using Drupal."
+      ]
+    },
+    {
+      "name": "ALERT Life Sciences Computing",
+      "position": "Team Leader",
+      "website": "http://www.alert-online.com/",
+      "startDate": "2008-02-01",
+      "endDate": "2010-03-01",
+      "summary": "I started in a newly created team, with the purpose of developing a new version of the website which the company started with, the Health Portal.\nThis website had articles about health, a discussion forum, a directory with private medical practices and a newsletter.\nAt first, we were two elements, in which I developed the entire front-end using HTML, JavaScript, and CSS. The back-end was developed in Java, with Oracle as a database.\nAfter the website launch, I was promoted to Team Leader of the development team, which grew until we were four, two back-end developers, one front-end developer, and me, that also developed front-end.\nWe were a Scrum team, with daily stand-ups.\nI did project management of all the development tasks, the assigning and prioritization, and the support to all the development team members.",
+      "highlights": [
+        "Development and launch of Health Portal new version.",
+        "Growth of the development up to four elements.",
+        "Increase of visits with this new version."
+      ]
+    },
+    {
+      "name": "ALERT Life Sciences Computing",
+      "position": "Full-stack Flash Web Developer",
+      "website": "http://www.alert-online.com/",
+      "startDate": "2007-03-01",
+      "endDate": "2008-02-01",
+      "summary": "Development of the official website of Grupo de Estudos de Esclerose Múltipla, with the following architecture:\n- A front-end in Adobe Flash. This front-end included the main website, and a back-office to manage all the content creation.\n- A back-end in PHP, that received HTTP requests, using Flash Remoting as an interface of communication, and had all the needed business logic. For the database, I've used Oracle.",
+      "highlights": [
+        "Development and launch of GEEM official website."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Coursera",
+      "area": "Object Oriented with Java",
+      "studyType": "Course",
+      "startDate": "2018-02-01",
+      "endDate": "2018-05-01",
+      "courses": [
+        "JUnit",
+        "TDD",
+        "Interfaces"
+      ]
+    },
+    {
+      "institution": "ISLA Gaia",
+      "area": "Multimedia Systems Engineering",
+      "studyType": "College Degree",
+      "startDate": "2009-09-01",
+      "endDate": "2010-07-01",
+      "gpa": "13",
+      "courses": [
+        "Software engineering",
+        "Security",
+        "Business strategy"
+      ]
+    },
+    {
+      "institution": "Universidade de Aveiro",
+      "area": "Information Management",
+      "studyType": "Master Degree",
+      "startDate": "2003-09-01",
+      "endDate": "2006-07-01",
+      "gpa": "16",
+      "courses": [
+        "Application modeling using UML",
+        "C# programming language",
+        "Thesis related to web semantic and microformats, where I proposed a new format to give semantics and meaning to contents about tourism"
+      ]
+    },
+    {
+      "institution": "ISLA Gaia",
+      "area": "Management of Information Systems and Multimedia",
+      "studyType": "College Degree",
+      "startDate": "2003-09-01",
+      "endDate": "2006-07-01",
+      "gpa": "13",
+      "courses": [
+        "Database modeling",
+        "Data structures and algorithms",
+        "Computer architecture",
+        "Networks",
+        "Programming using C, C# and PHP"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "PHP",
+      "keywords": [
+        "Server-Side",
+        "Scripting"
+      ]
+    },
+    {
+      "name": "Symfony",
+      "keywords": [
+        "PHP",
+        "Framework",
+        "MVC",
+        "Dependency Injection"
+      ]
+    },
+    {
+      "name": "WordPress",
+      "keywords": [
+        "PHP",
+        "CMS"
+      ]
+    },
+    {
+      "name": "Drupal",
+      "keywords": [
+        "PHP",
+        "CMS"
+      ]
+    },
+    {
+      "name": "PHPUnit",
+      "keywords": [
+        "PHP",
+        "TDD",
+        "Unit Tests"
+      ]
+    },
+    {
+      "name": "Behat",
+      "keywords": [
+        "BDD"
+      ]
+    },
+    {
+      "name": "phpspec",
+      "keywords": [
+        "PHP",
+        "BDD",
+        "Specs"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "keywords": [
+        "Database",
+        "Relational"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "keywords": [
+        "Scripting",
+        "Server-Side",
+        "Client-Side"
+      ]
+    },
+    {
+      "name": "React",
+      "keywords": [
+        "SPA",
+        "Front-End",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "AngularJS",
+      "keywords": [
+        "SPA",
+        "Front-End",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "CSS",
+      "keywords": [
+        "Design",
+        "Front-End"
+      ]
+    },
+    {
+      "name": "Redis",
+      "keywords": [
+        "In-memory key-value database"
+      ]
+    },
+    {
+      "name": "Kafka",
+      "keywords": [
+        "Streaming",
+        "Events"
+      ]
+    },
+    {
+      "name": "ElasticSearch",
+      "keywords": [
+        "Search"
+      ]
+    },
+    {
+      "name": "Solr",
+      "keywords": [
+        "Search"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "keywords": [
+        "Database",
+        "NoSQL",
+        "JSON"
+      ]
+    },
+    {
+      "name": "Java",
+      "keywords": [
+        "Object-oriented",
+        "Compiled"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Portuguese",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Reading",
+      "keywords": [
+        "1984",
+        "Clean Code",
+        "Murder on the Orient Express"
+      ]
+    },
+    {
+      "name": "Playing soccer",
+      "keywords": [
+        "FC Porto",
+        "José Mourinho",
+        "Cristiano Ronaldo"
+      ]
+    },
+    {
+      "name": "Practicing surf",
+      "keywords": [
+        "Matosinhos",
+        "Long Board"
+      ]
+    },
+    {
+      "name": "Weekly swimming",
+      "keywords": [
+        "Prefer warm to cool water"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Dúvidas de Informática/Poweruser.pt",
+      "description": "I've developed and launch this Q&A and blog website, naming it 'Dúvidas de Informática'. His main goal was to be a reliable source of information about technology, and also to be a tool to help people with IT problems. His primary source of revenue was ads and sponsored posts. Later I joined the AEIOU network, and rebrand the website to Poweruser.pt. At its peak, it reached 300k monthly visits. I developed it using HTML, Javascript, CSS, PHP, MySQL, WordPress and also added a separated application in Symfony. All the content was managed using WordPress, and in addition, I've created a separated application in Symfony, who received HTTP requests for newsletters subscriptions but also connected via XML-RPC to the website to pull the latest posts. This separated application was responsible for managing e-mail newsletters and also to create publications on Tumblr, Twitter, and Facebook. In 2015 I've sold this project.",
+      "keywords": ["PHP", "WordPress", "AdSense", "Symfony"],
+      "startDate": "2010-03-01",
+      "endDate": "2016-02-20"
+    },
+    {
+      "name": "guia + viagens",
+      "description": "This was a tourism-related blog that wanted to encourage his readers to go to places that deserved to be visited. It had news, tips related to points of interest and cities, and quizzes. Later I joined the AEIOU network of sites. Technically I developed it using HTML, Javascript, CSS, PHP, MySQL, and WordPress. In 2016 I've sold this project to the AEIOU network.",
+      "url": "https://guia-viagens.aeiou.pt/",
+      "keywords": ["PHP", "WordPress", "AdSense", "Symfony"],
+      "startDate": "2010-03-01",
+      "endDate": "2015-08-15"
+    }
+  ]
+}
